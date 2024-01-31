@@ -38,5 +38,3 @@ graph TD;
 
 Adjust the script's parameters, such as the initial time, sleep durations, and sensor thresholds, according to your preferences.
 
-## Flow Chart
-
