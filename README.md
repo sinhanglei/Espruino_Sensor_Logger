@@ -22,8 +22,7 @@ This Espruino script is designed for logging sensor data on an Espruino Pico dev
 - The script will log sensor data, including light values and timestamps, into a `log.json` file.
 - Sleep durations are determined based on specific conditions, such as low light values.
 
-### Flow Chart
- ```mermaid
+```mermaid
 graph TD;
    A[Initialize Time] --> B[Update Time Every Second]
    B --> C[Read Light Sensor Data]
@@ -38,3 +37,6 @@ graph TD;
 ## Configuration
 
 Adjust the script's parameters, such as the initial time, sleep durations, and sensor thresholds, according to your preferences.
+
+## Flow Chart
+
