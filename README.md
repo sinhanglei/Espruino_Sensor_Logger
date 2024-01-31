@@ -23,6 +23,7 @@ This Espruino script is designed for logging sensor data on an Espruino Pico dev
 - Sleep durations are determined based on specific conditions, such as low light values.
 
 ### Flow Chart
+ ```mermaid
 graph TD;
    A[Initialize Time] --> B[Update Time Every Second]
    B --> C[Read Light Sensor Data]
@@ -32,6 +33,7 @@ graph TD;
    E --> |Night| G[Sleep for 1 hour]
    F --> B
    G --> B
+ ```
 
 ## Configuration
 
